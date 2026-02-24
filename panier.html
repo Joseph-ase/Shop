@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElectroShop | Panier</title>
+
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f2f2f2}
+nav{background:#111;padding:12px;text-align:center}
+nav a{color:#fff;margin:6px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block}
+nav a:hover{color:orange}
+.container{padding:20px;text-align:center}
+img{max-width:100%;height:auto}
+.produits{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:15px}
+.produit{background:#fff;padding:12px;border-radius:8px;font-size:14px;box-shadow:0 0 6px rgba(0,0,0,.1)}
+.produit img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px}
+button{width:100%;background:orange;border:none;padding:10px;color:#fff;font-size:14px;border-radius:5px;cursor:pointer}
+button:hover{background:darkorange}
+footer{background:#111;color:#fff;text-align:center;padding:12px;font-size:13px}
+@media(max-width:600px){
+nav a{display:block;margin:8px 0;font-size:16px}
+h1{font-size:22px}
+h2{font-size:18px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Accueil</a>
+<a href="produits.html">Produits</a>
+<a href="apropos.html">À propos</a>
+<a href="contact.html">Contact</a>
+<a href="panier.html">Panier</a>
+</nav>
+
+<div class="container">
+
+<h2>Mon panier</h2>
+
+<p>
+Votre panier est vide pour le moment.
+</p>
+
+<p>
+Ajoutez des produits depuis la page Produits.
+</p>
+
+<button>Valider la commande</button>
+
+</div>
+
+<footer>
+© 2026 ElectroShop. Tous droits réservés.
+</footer>
+
+</body>
+</html>
